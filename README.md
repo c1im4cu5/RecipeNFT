@@ -1,4 +1,4 @@
-![alt text](https://github.com/c1im4cu5/RecipeNFT/client/src/images/header.png)
+![alt text](https://github.com/c1im4cu5/RecipeNFT/blob/main/client/src/images/header.png)
 
 # RecipeNFT
 A fun full stack project based in Web3, Vyper, Avalanche Blockchain, React (Frontend) and Express.js (Backend).
