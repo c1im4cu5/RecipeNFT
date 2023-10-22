@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav
+{
+   position: fixed;
+   top: 0px;
+   background-color: #ff7503;
+   color: #FFFFFF;
+}
+
+body {
+    background-color: #f5f5f5; /* a light gray */
+    color: #333; /* a dark gray for text */
+    font-family: Arial, sans-serif; /* fallback fonts */
+    font-size: 16px; /* default font size */
+    line-height: 1.5; /* default line height */
+    margin: 0; /* reset default margin */
+    padding: 0; /* reset default padding */
+    padding-top: 55px;
+}
+
+
+.pl-5, .pr-5, h1, h2, p, a, .lead {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p.lead {
+  font-size: 20px;
+  font-style: italic;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+navbar-brand {
+  color: white;
+}
+
+.header-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  white-space: pre-line;
+}
+
+.header-box img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-description {
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  margin-right: 10px;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: pre-line;
+}
+
+.search-results img {
+  margin-bottom: 10px;
+}
