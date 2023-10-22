@@ -4,7 +4,7 @@
 A fun full stack project based in Web3, Vyper, Avalanche Blockchain, React (Frontend) and Express.js (Backend).
 
 ## Basic Concept
-An ERC721 contract with a custom chargable mint function (see /contracts/ERC721-Chargable.vy smart contract). Site was originally built as an example of allowing users to mint tokens of their favorite family recipes. Users can/could attach a photo along with text for a title and description. Site will generate the IPFS hash for the photo and text, build the metadata for the ERC721 mint and custom mint their recipe for a fee that is attached to the mint and sent to the owner's wallet address.
+An ERC721 contract with a custom chargeable mint function (see /contracts/ERC721-Chargable.vy smart contract). Site was originally built as an example of allowing users to mint tokens of their favorite family recipes. Users can/could attach a photo along with text for a title and description. Site will generate the IPFS hash for the photo and text, build the metadata for the ERC721 mint and custom mint their recipe for a fee that is attached to the mint and sent to the owner's wallet address.
 
 ## Implementation
 While the code was originally implemented for RecipeNFT.io, C1im4cu5 took it down after a couple of months. It ran via GCP Cloud Run with a link to Github for CI/CD.
